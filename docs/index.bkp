@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADIF MCP — eQSL Adapter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="card">
+      <div class="site-title">
+        <span class="badge">ADIF MCP</span> eQSL Adapter
+      </div>
+      <nav class="topnav">
+        <a href="https://adif-mcp.com">Core</a>
+        <a href="https://lotw.adif-mcp.com">LoTW Adapter</a>
+        <a href="https://eqsl.adif-mcp.com">eQSL Adapter</a>
+        <a href="https://github.com/KI7MT/adif-mcp-eqsl">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="card">
+        <h1>eQSL Adapter</h1>
+        <p>
+          <strong>adif-mcp-eqsl</strong> connects ADIF MCP with
+          <a href="https://www.eqsl.cc/">eQSL.cc</a>, making inbound confirmations and inbox sync
+          available as typed MCP tools. Upload support is planned for a later milestone.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Features</h2>
+        <ul>
+          <li>Fetch and parse eQSL inbox messages</li>
+          <li>Check confirmation statuses</li>
+          <li>Normalize eQSL-specific fields to ADIF</li>
+          <li>Consistent API with LoTW adapter</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Roadmap</h2>
+        <ul>
+          <li>M1 — Inbox fetch + confirmation status</li>
+          <li>M2 — Normalization and schema alignment</li>
+          <li>M3 — Upload support (optional)</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      © 2025 ADIF MCP Project · MIT License
+    </footer>
+  </div>
+</body>
+
+</html>
